@@ -16,6 +16,7 @@
 
 	<modules>
 		<module>hpyryde-location-ingest-service</module>
+		<module>hpyryde-discovery-server</module>
 	</modules>
 
 	<properties>

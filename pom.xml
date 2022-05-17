@@ -18,6 +18,7 @@
 	<modules>
 		<module>hpyryde-discovery-server</module>
 		<module>hpyryde-discovery-ui</module>
+		<module>hypride-location-service</module>
 		<module>hpyryde-location-ingest-service</module>
 	</modules>
 

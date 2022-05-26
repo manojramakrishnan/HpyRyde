@@ -22,6 +22,13 @@ public void upload(List<Location> cars) {
 	
 }
 
+
+@Override
+public void purge() {
+	// TODO Auto-generated method stub
+	this.locationRepository.deleteAll();
+}
+
 }
 
 

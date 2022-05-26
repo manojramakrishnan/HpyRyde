@@ -7,5 +7,6 @@ import com.hpyryde.main.entity.Location;
 public interface LocationService {
 
 	void upload(List<Location> cars);
+	void purge();
 
 }

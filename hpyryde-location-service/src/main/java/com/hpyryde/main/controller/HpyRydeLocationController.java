@@ -15,7 +15,7 @@ import com.hpyryde.main.service.LocationService;
 
 
 @RestController
-public class HpyRydeLocationUploadController {
+public class HpyRydeLocationController {
 	@Autowired
 	private LocationService locationService;
 	@RequestMapping(value="/carlocations",method=RequestMethod.POST)
@@ -24,6 +24,10 @@ public class HpyRydeLocationUploadController {
 		locationService.upload(cars);
 		
 	}
+	@RequestMapping(value="/purge",method=RequestMethod.GET)
+	@ResponseStatus(HttpStatus.OK)
+	public void purge() {
+		locationService.purge();
 	
-
-} 
+	}
+}

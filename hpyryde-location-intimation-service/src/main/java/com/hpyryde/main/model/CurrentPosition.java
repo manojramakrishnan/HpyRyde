@@ -1,5 +1,4 @@
 package com.hpyryde.main.model;
-import java.awt.Point;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
@@ -15,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class CurrentLocation {
+public class CurrentPosition {
 
 	private String vin;
 	private Point location;

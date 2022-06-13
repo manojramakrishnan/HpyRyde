@@ -1,8 +1,6 @@
 package com.hpyryde.main.model;
 
 
-
-
 public enum VehicleStatus {
 	
 	
